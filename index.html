@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <title>Password Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Karla:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container bottom-line">
+        <h1 id="a">Generate a</h1>
+        <h1 id="b">random password</h1>
+        <h2>Never use an insecure password again.</h2>
+        <button onclick="generatePasswords()">Generate passwords</button>
+        <label class="container">
+            <br>
+            <input type="checkbox" id="lower-box" checked>
+            Lowercase letters
+            <span></span>
+        </label>
+        <label class="container">
+            <br>
+            <input type="checkbox" id="upper-box">
+            Uppercase letters
+            <span></span>
+        </label>
+        <label class="container">
+            <br>
+            <input type="checkbox" id="numbers-box">
+            Numbers
+            <span></span>
+        </label>
+        <label class="container">
+            <br>
+            <input type="checkbox" id="special-box">
+            Special characters
+            <span></span>
+        </label>
+
+    </div>
+    <div class="container flex">
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+        <p class="password"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
